@@ -1,65 +1,82 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: grey;
+    background-color: #1a212f;
     text-decoration: none;   
 }
-p{  margin:10px 20px 25px 20px;
-    padding: 30px;
-    color: white;
-    text-align: justify;
-    font-size:18px;
 
-}
-
-.imagens{                               /* imagem */
+.imagens{
     border-radius: 5cap 40cap;
-    width: 50%;
-    border: 3px solid aquamarine;
+    width: 90%;
+    border: 2px solid aquamarine;
 }
-#table{                                 /* tabela formulário */
-    text-align: left;
-    display: inline-block;
-}
-#titulo{                                /*titulo*/
+
+#titulo{
     text-align: right;
     padding: large;
     color: aquamarine;
 }
-#menu{                                  /*menu*/
+#menu{
     text-decoration: none;
     text-align: center;
     color: aquamarine;
     border: 1px;
     padding: 1px;
-    box-sizing: border-box;
-
 }
 #header{
-    background-color: grey;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
 }
 #header a:link, #header a:visited{
     color: #ffffff;
-    padding:5px 7px;
 }
 #header a:hover{
-    color: black;
+    color: slategray;
     background-color: aquamarine;
 }
-
 #logo, #menu{
-    padding: 5px;
+    padding: 10px;
 }
-
-#rodape{                                 /*rodapé*/
+#rodape{
     background-color: aquamarine;
+    color: slategray;
 }
-#content{                                /* conteudo */
+#content{
     text-align: center;
-    padding: 15;
+    padding: 1;
     text-decoration: none;
 }
-#content2{                                  /* segundo conteudo */
+#content2{
     text-align:left;
+    padding: 15;
+}
+table{
+    text-align: left;
+    display: inline-block;
+    color: white;
+    
+}
+button {
+  background-color: aquamarine;
+  font-size: medium;
+  color: #1a212f;
+}
+input[type="submit"] {
+  color: white;
+  background-color: green;
+}
+textarea,input {
+    color: #1a212f ;
+    background-color: white;
+}
+p{  margin: 8px;
+    padding: 8px;
+    color: white;
+    text-align:justify;
+    font-size:20px;
+
+}
+ul, ol{
+    text-align: left;
+    color: white;
+    font-size: 20px;
 }
