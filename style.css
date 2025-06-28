@@ -4,10 +4,11 @@
     text-decoration: none;   
 }
 
-.imagens{
-    border-radius: 5cap 40cap;
-    width: 90%;
+#imagens{
+    border-radius: 20px 2px;
+    width: 40%;
     border: 2px solid aquamarine;
+    margin: auto; 
 }
 
 #titulo{
@@ -16,6 +17,7 @@
     color: aquamarine;
 }
 #menu{
+    font-size: 20px;
     text-decoration: none;
     text-align: center;
     color: aquamarine;
@@ -23,10 +25,11 @@
     padding: 1px;
 }
 #header{
-    padding: 10px;
+    padding: 3px;
     text-align: center;
 }
-#header a:link, #header a:visited{
+#header a:link, 
+#header a:visited{
     color: #ffffff;
 }
 #header a:hover{
@@ -35,19 +38,18 @@
 }
 #logo, #menu{
     padding: 10px;
+    
 }
 #rodape{
     background-color: aquamarine;
     color: slategray;
 }
-#content{
-    text-align: center;
-    padding: 1;
-    text-decoration: none;
-}
-#content2{
-    text-align:left;
-    padding: 15;
+#leleca{
+    width: 180px;
+    border: 2px solid aquamarine;
+    border-radius: 20px 2px;
+    margin: 20px;
+    float: inline-end;
 }
 table{
     text-align: left;
@@ -69,7 +71,7 @@ textarea,input {
     background-color: white;
 }
 p{  margin: 8px;
-    padding: 8px;
+    padding: 12px;
     color: white;
     text-align:justify;
     font-size:20px;
@@ -78,5 +80,5 @@ p{  margin: 8px;
 ul, ol{
     text-align: left;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
 }
