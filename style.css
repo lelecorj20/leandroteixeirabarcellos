@@ -1,84 +1,68 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #1a212f;
-    text-decoration: none;   
-}
-
-#imagens{
+    text-decoration: none;}
+/* logo principal */
+#logo{
     border-radius: 20px 2px;
-    width: 40%;
+    width: 50%;
     border: 2px solid aquamarine;
-    margin: auto; 
-}
-
+    float: initial;
+    }
+/*titulo do site*/
 #titulo{
     text-align: right;
     padding: large;
-    color: aquamarine;
-}
+    color: aquamarine;}
+/*menu superior*/
 #menu{
     font-size: 20px;
     text-decoration: none;
     text-align: center;
     color: aquamarine;
     border: 1px;
-    padding: 1px;
-}
+    padding: 10px;}
+/*Cabeçalho*/
 #header{
     padding: 3px;
-    text-align: center;
-}
+    text-align: center;}
 #header a:link, 
 #header a:visited{
-    color: #ffffff;
-}
+    color: #ffffff;}
 #header a:hover{
     color: slategray;
-    background-color: aquamarine;
-}
-#logo, #menu{
-    padding: 10px;
-    
-}
+    background-color: aquamarine;}
+/*Rodapé*/
 #rodape{
     background-color: aquamarine;
-    color: slategray;
-}
-#leleca{
+    color: slategray;}
+/*midias e conteúdos*/
+img{
     width: 180px;
     border: 2px solid aquamarine;
     border-radius: 20px 2px;
     margin: 20px;
-    float: inline-end;
-}
+    float: inline-end;}
 table{
     text-align: left;
     display: inline-block;
-    color: white;
-    
-}
+    color: white;}
 button {
   background-color: aquamarine;
   font-size: medium;
-  color: #1a212f;
-}
+  color: #1a212f;}
 input[type="submit"] {
   color: white;
-  background-color: green;
-}
+  background-color: green;}
 textarea,input {
     color: #1a212f ;
-    background-color: white;
-}
+    background-color: white;}
 p{  margin: 8px;
     padding: 12px;
     color: white;
     text-align:justify;
-    font-size:20px;
-
-}
+    font-size:20px;}
 ul, ol{
     text-align: left;
     color: white;
-    font-size: 16px;
-}
+    font-size: 16px;}
