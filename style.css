@@ -16,10 +16,9 @@
     color: aquamarine;}
 /*menu superior*/
 #menu{
-    max-width: fit-content;
+    max-width:max-content;
     font-size: 25px;
     text-decoration: none;
-    text-align: center;
     color: aquamarine;
     padding: 8px;}
 /*Cabeçalho*/
@@ -42,9 +41,7 @@ img{
     border: 2px solid aquamarine;
     border-radius: 20px 2px;
     margin: 5px;
-    max-width: 350px;
-    box-sizing: border-box;
-    float: inherit;}
+    box-sizing: border-box;}
 table{
     text-decoration: none;
     margin: auto;
@@ -67,7 +64,6 @@ p{  margin: 2px;
     padding: 6px;
     color: white;
     text-align:justify;
-    max-width: fit-content;
     font-size:18px;}
 ul, ol{
     text-align: left;
