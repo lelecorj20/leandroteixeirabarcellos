@@ -29,13 +29,14 @@
 #header a:visited{
     color: #ffffff;}
 #header a:hover{
-    border-color: bisque;
+    content-visibility: visible;
     color: black;
     background-color: aquamarine;}
 /*Rodapé*/
 #rodape{
     background-color: aquamarine;
     color: slategray;}
+
 /*midias e conteúdos*/
 img{
     border: 2px solid aquamarine;
@@ -64,8 +65,8 @@ p{  margin: 2px;
     padding: 6px;
     color: white;
     text-align:justify;
-    font-size:20px;}
+    font-size:18px;}
 ul, ol{
     text-align: left;
-    color: white;
-    font-size: 16px;}
+    color: aquamarine;
+    font-size: 22px;}
