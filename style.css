@@ -58,8 +58,8 @@ input[type="submit"] {
 textarea,input {
     color: #1a212f ;
     background-color: white;}
-p{  margin: 8px;
-    padding: 12px;
+p{  margin: 2px;
+    padding: 6px;
     color: white;
     text-align:justify;
     font-size:20px;}
