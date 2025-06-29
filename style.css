@@ -8,6 +8,7 @@
     width: 50%;
     border: 2px solid aquamarine;
     float: initial;
+    box-sizing: border-box;
     }
 /*titulo do site*/
 #titulo{
@@ -24,7 +25,7 @@
     padding: 10px;}
 /*Cabeçalho*/
 #header{
-    padding: 3px;
+    padding: 2px;
     text-align: center;}
 #header a:link, 
 #header a:visited{
@@ -38,11 +39,11 @@
     color: slategray;}
 /*midias e conteúdos*/
 img{
-    width: 180px;
     border: 2px solid aquamarine;
     border-radius: 20px 2px;
-    margin: 20px;
-    float: inline-end;}
+    margin: 5px;
+    box-sizing: border-box;
+    float: inherit;}
 table{
     text-align: left;
     display: inline-block;
