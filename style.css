@@ -16,6 +16,7 @@
     color: aquamarine;}
 /*menu superior*/
 #menu{
+    max-width: fit-content;
     font-size: 25px;
     text-decoration: none;
     text-align: center;
@@ -66,6 +67,7 @@ p{  margin: 2px;
     padding: 6px;
     color: white;
     text-align:justify;
+    max-width: fit-content;
     font-size:18px;}
 ul, ol{
     text-align: left;
