@@ -30,7 +30,7 @@
     color: #ffffff;}
 #header a:hover{
     content-visibility: visible;
-    color: black;
+    color: #1a212f;
     background-color: aquamarine;}
 /*Rodapé*/
 #rodape{
@@ -58,7 +58,7 @@ button {
   color: #1a212f;}
 input[type="submit"] {
   color: white;
-  background-color: green;}
+  background-color:aquamarine;}
 textarea,input {
     color: #1a212f ;
     background-color: white;}
@@ -71,4 +71,10 @@ ul, ol{
     text-align: left;
     color: aquamarine;
     font-size: 22px;}
+a{
+    text-decoration: none;
+    color: white}
 
+a:link, a:visited{
+    color: #1a212f;
+    text-decoration: none;}
