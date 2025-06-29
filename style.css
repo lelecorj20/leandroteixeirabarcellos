@@ -41,6 +41,7 @@ img{
     border: 2px solid aquamarine;
     border-radius: 20px 2px;
     margin: 5px;
+    max-width: 350px;
     box-sizing: border-box;
     float: inherit;}
 table{
