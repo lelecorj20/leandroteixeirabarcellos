@@ -44,8 +44,11 @@ img{
     box-sizing: border-box;
     float: inherit;}
 table{
-    text-align: left;
-    display: inline-block;
+    margin: auto;
+    border-color:aquamarine;
+    height: 100px;
+    width: 350px;
+    text-align: center;
     color: white;}
 button {
   background-color: aquamarine;
