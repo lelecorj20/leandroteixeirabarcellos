@@ -36,8 +36,7 @@
 #rodape{
     background-color: aquamarine;
     color: slategray;}
-
-/*midias e conteúdos*/
+    /*midias e conteúdos*/
 img{
     border: 2px solid aquamarine;
     border-radius: 20px 2px;
@@ -70,3 +69,4 @@ ul, ol{
     text-align: left;
     color: aquamarine;
     font-size: 22px;}
+
