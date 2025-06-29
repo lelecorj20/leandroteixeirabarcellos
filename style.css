@@ -8,8 +8,7 @@
     width: 50%;
     border: 2px solid aquamarine;
     float: initial;
-    box-sizing: border-box;
-    }
+    box-sizing: border-box;}
 /*titulo do site*/
 #titulo{
     text-align: right;
@@ -27,6 +26,7 @@
     padding: 20px;
     text-align: center;}
 #header a:visited{
+    text-decoration: none;
     color: #ffffff;}
 #header a:hover{
     content-visibility: visible;
@@ -45,6 +45,7 @@ img{
     box-sizing: border-box;
     float: inherit;}
 table{
+    text-decoration: none;
     margin: auto;
     border-color:aquamarine;
     height: 100px;
