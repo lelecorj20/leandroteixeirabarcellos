@@ -21,16 +21,16 @@
     text-decoration: none;
     text-align: center;
     color: aquamarine;
-    padding: 15px;}
+    padding: 8px;}
 /*Cabeçalho*/
 #header{
     padding: 20px;
     text-align: center;}
-#header a:link, 
 #header a:visited{
     color: #ffffff;}
 #header a:hover{
-    color: slategray;
+    border-color: bisque;
+    color: black;
     background-color: aquamarine;}
 /*Rodapé*/
 #rodape{
