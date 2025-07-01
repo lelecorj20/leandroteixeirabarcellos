@@ -1,14 +1,7 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #1a212f;
-    text-decoration: none;}
-/* logo principal */
-#logo{
-    border-radius: 20px 2px;
-    width: 50%;
-    border: 2px solid aquamarine;
-    float: initial;
-    box-sizing: border-box;}
+    }
 /*titulo do site*/
 #titulo{
     text-align: right;
@@ -16,7 +9,7 @@
     color: aquamarine;}
 /*menu superior*/
 #menu{
-    max-width:max-content;
+    max-width: max-content;
     font-size: 20px;
     text-decoration: none;
     color: aquamarine;
@@ -36,11 +29,15 @@
     background-color: aquamarine;
     color: slategray;}
 /*midias e conteúdos*/
+.homemestudando{
+    margin: auto;
+
+}
 img{
+    width: auto;
+    height: 300px;
     border: 2px solid aquamarine;
-    border-radius: 20px 2px;
-    margin: 5px;
-    box-sizing: border-box;}
+    border-radius: 20px 2px;}
 table{
     text-decoration: none;
     margin: auto;
@@ -52,21 +49,26 @@ table{
     color: white;}
 button{
     background-color: aquamarine;
-    font-size: medium;
+    font-size: larger;
     color: #1a212f;}
 input[type="submit"] {
     color: white;
     background-color:aquamarine;}
 textarea,input {
+    margin: 10px;
+    padding: 10px;
     color: #1a212f ;
-    background-color: white;}
+    background-color: white;
+    width: auto;
+}
 p{  
-    width : 920px;
-    margin: 2px auto;
-    padding: 6px;
+    width: 520px auto;
+    height: fit-content;
+    margin: 10px;
+    padding: 1px;
     color: white;
-    text-align:left;
-    font-size:14px;}
+    text-align:justify;
+    font-size:16px;}
 ul, ol, li{
     width: 920px;
     margin: 5px auto;
