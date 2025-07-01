@@ -17,26 +17,25 @@
 /*menu superior*/
 #menu{
     max-width:max-content;
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
     color: aquamarine;
     padding: 8px;}
 /*Cabeçalho*/
 #header{
-    padding: 20px;
+    padding: 15px;
     text-align: center;}
-#header a:visited{
+#header a:link, #header a:visited{
     text-decoration: none;
-    color: #ffffff;}
-#header a:hover{
-    content-visibility: visible;
+    color:white ;}
+#header a:hover, #header a:active {
     color: #1a212f;
-    background-color: aquamarine;}
+    background: aquamarine;}
 /*Rodapé*/
 #rodape{
     background-color: aquamarine;
     color: slategray;}
-    /*midias e conteúdos*/
+/*midias e conteúdos*/
 img{
     border: 2px solid aquamarine;
     border-radius: 20px 2px;
@@ -45,34 +44,35 @@ img{
 table{
     text-decoration: none;
     margin: auto;
-    border-color:aquamarine;
-    height: 100px;
-    width: 350px;
+    border: 1px;
+    border-color: aquamarine;
+    height: 150px;
+    width: 280px;
     text-align: center;
     color: white;}
-button {
-  background-color: aquamarine;
-  font-size: medium;
-  color: #1a212f;}
+button{
+    background-color: aquamarine;
+    font-size: medium;
+    color: #1a212f;}
 input[type="submit"] {
-  color: white;
-  background-color:aquamarine;}
+    color: white;
+    background-color:aquamarine;}
 textarea,input {
     color: #1a212f ;
     background-color: white;}
-p{  margin: 2px;
+p{  
+    width : 920px;
+    margin: 2px auto;
     padding: 6px;
     color: white;
-    text-align:justify;
-    font-size:18px;}
-ul, ol{
+    text-align:left;
+    font-size:14px;}
+ul, ol, li{
+    width: 920px;
+    margin: 5px auto;
     text-align: left;
     color: aquamarine;
-    font-size: 22px;}
+    font-size: 16px;}
 a{
     text-decoration: none;
     color: white}
-
-a:link, a:visited{
-    color: #1a212f;
-    text-decoration: none;}
